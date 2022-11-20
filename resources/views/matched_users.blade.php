@@ -13,7 +13,7 @@
         <p>Annual Income : {{ $user->annual_income }}</p>
         <p>Family Type : {{ $user->family_type }}</p>
         <p>Manglik : {{ $user->is_manglik == 1?"Yes":"No" }}</p>
-        <p>Match : {{ $user->percentage }} </p>
+        <p>Match : {{ $user->percentage."%" }} </p>
         <!-- <div class="social">
             <a href=""><i class="ri-twitter-fill"></i></a>
             <a href=""><i class="ri-facebook-fill"></i></a>
